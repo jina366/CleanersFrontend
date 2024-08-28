@@ -30,3 +30,8 @@ body {
     flex-direction: row;
     gap: 1rem;
 }
+
+.pageTop {
+    background-color: #949052;
+    padding: 1rem;
+}
