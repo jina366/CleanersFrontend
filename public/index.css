@@ -28,7 +28,16 @@ body {
 #navbarTabs-container {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
+}
+.tab {
+    text-decoration: none;
+    color: white;
+    font-size:larger;
+}
+.tab:hover,
+.active {
+    color: #442e39;
 }
 
 /* Home Tab */

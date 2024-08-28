@@ -1,25 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from '../media/Logo.png';
 
 const Navbar = () => {
   return (
     <div id='navbar'>
-      <img src={Logo} id='navbarLogo' />
+      <Link to='/'>
+        <img src={Logo} id='navbarLogo' />
+      </Link>
       <div id='navbarTabs'>
         <div id='navbarTabs-container'>
-          <Link to='/'>
+          <Link to='/' className='tab'>
             <h2>HOME</h2>
           </Link>
-          <Link to='/pricing'>
+          <NavLink to='/pricing' className='tab' >
             <h2>PRICING</h2>
-          </Link>
-          <Link to='/checkStatus'>
+          </NavLink>
+          <NavLink to='/checkStatus' className='tab'>
             <h2>ITEM STATUS</h2>
-          </Link>
-          <Link to='/contact'>
+          </NavLink>
+          <NavLink to='/contact' className='tab'>
             <h2>CONTACT US</h2>
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>
