@@ -1,18 +1,29 @@
+/* F1F3EF
+    949052
+    94A097
+    875C73
+    436261 */
+
 body {
     margin: 0;
+    font-family: 'Nerko One', 'sanrif';
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: bisque;
+    background-color: #875C73;
     justify-content: space-between;
     padding: 1rem 2rem;
 }
 #navbarLogo {
     width: 4rem;
     height: 4rem;
+    background-color: #F1F3EF;
+    padding: 0.5rem;
+    border-radius: 45%;
+    /* border: 0.5rem solid #F1F3EF; */
 }
 #navbarTabs-container {
     display: flex;
