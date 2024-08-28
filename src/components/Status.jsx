@@ -2,7 +2,9 @@ import React from 'react';
 
 const Status = () => {
     return (
-        <div>Status Check</div>
+        <div>
+            <h1>Status Check</h1>
+        </div>
     )
 }
 

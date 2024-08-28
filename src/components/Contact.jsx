@@ -4,7 +4,9 @@ import React from 'react';
 const Contact = () => {
 
     return (
-        <div>Contact Info</div>
+        <div>
+            <h1>Contact Info</h1>
+        </div>
     )
 }
 
