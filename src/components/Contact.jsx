@@ -37,6 +37,8 @@ const Contact = () => {
                 Message 
                 <input type='text' name='message'/>
             </label>
+
+            <button>Submit</button>
           </form>
         </div>
         {/* Customer Inquiry Form */}
