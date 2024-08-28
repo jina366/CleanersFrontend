@@ -61,7 +61,29 @@ body {
 }
 
 /* Price Tab */
+#price-container {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.price-table {
+    border: 1px solid;
+    padding: 1rem;
+}
+td {
+    padding: 0.5rem;
+}
 
+#bottom {
+    display: flex;
+    justify-content: center;
+}
+#price-message {
+    color: red;
+    width: 80vw;
+}
 
 /* Status Tab */
 
