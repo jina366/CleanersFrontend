@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: bisque;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+#navbarLogo {
+    width: 4rem;
+    height: 4rem;
+}
+#navbarTabs-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
