@@ -7,6 +7,8 @@
 body {
     margin: 0;
     font-family: 'Nerko One', 'sanrif';
+    width: 100vw;
+    height: 100vh;
 }
 
 #navbar {
@@ -90,10 +92,10 @@ body {
 }
 table td {
     padding: 0.5rem;
-    font-size: 20px;
+    font-size: 25px;
 }
 table tr {
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 #bottom {
@@ -103,10 +105,33 @@ table tr {
 #price-message {
     color: red;
     width: 80vw;
+    font-size: 20px;
 }
 
 /* Status Tab */
-
+#status-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 30px;
+}
+#status-sentence {
+    /* padding-top: 1.5rem;
+    padding-left: 1.5rem; */
+}
+#status-form {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: rgb(211, 211, 211);
+    width: 50vw;
+    border-radius: 1%;
+    gap: 1rem;
+}
+.status-input {
+    margin-left: 10px;
+}
 
 /* Contact Tab */
 .pageBottom {
