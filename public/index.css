@@ -6,7 +6,8 @@
 
 body {
     margin: 0;
-    font-family: 'Nerko One', 'sanrif';
+    /* font-family: 'Nerko One', 'sanrif'; when converted to website, font became overlapped*/
+    font-family: 'SUSE', 'sanrif';
     width: 100vw;
     height: 100vh;
 }
