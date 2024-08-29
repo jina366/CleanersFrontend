@@ -8,7 +8,7 @@ const Price = () => {
       </div>
       <div className='pageBottom' id='price-container'>
         <div id='laundry-container'>
-          <h2>Laundry</h2>
+          <h2 className='price-type'>Laundry</h2>
           <table className='price-table'>
             <tr>
               <td>Shirt-on hanger</td>
@@ -21,7 +21,7 @@ const Price = () => {
           </table>
         </div>
         <div id='dry-cleaning-container'>
-          <h2>Dry Cleaning</h2>
+          <h2 className='price-type'>Dry Cleaning</h2>
           <table className='price-table'>
             <tr>
               <td>Shirt</td>
@@ -50,7 +50,7 @@ const Price = () => {
           </table>
         </div>
         <div id='household-container'>
-          <h2>Household</h2>
+          <h2 className='price-type'>Household</h2>
           <table className='price-table'>
             <tr>
                 <td>Comforter</td>

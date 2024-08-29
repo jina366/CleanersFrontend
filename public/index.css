@@ -76,13 +76,24 @@ body {
     padding: 3rem;
     flex-wrap: wrap;
     gap: 2rem;
+    font-size: 25px;
+}
+.price-type {
+    margin: 10px;
+    margin-left: 0px;
 }
 .price-table {
-    border: 1px solid;
     padding: 1rem;
+    background-color: #94A097;
+    border-collapse: collapse;
+    border-spacing: 0 5px;
 }
-td {
+table td {
     padding: 0.5rem;
+    font-size: 20px;
+}
+table tr {
+    border: 1px solid white;
 }
 
 #bottom {
